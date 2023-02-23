@@ -45,7 +45,7 @@ ul li :hover{
 }
 #topMain{
     width:100vw;
-    height:;
+    height:15vh;
     display:inline-block;
 }
 #topLeft{
@@ -81,6 +81,8 @@ ul li :hover{
     max-width: 200px;
     max-height: 200px;
     display: block;
+    margin-top:3vh;
+    margin-left:8vw;
     /*padding: 28px;
     padding-left: 15px;*/
 }
