@@ -1,15 +1,10 @@
-.html{
-    height:100%;
-    width:100%;
-    margin:0;
-    padding:0;
-}
-
 body{
     background-color: #F6F5EC ;
     font-size: 14px;
     width:100vw;
     height:100vh;
+    margin:0;
+    padding:0;
 }
 
 h1{
@@ -26,7 +21,7 @@ h1{
 
 ul{
     list-style:none;
-    margin-right: 15vw;
+
 }
 
 ul li{
@@ -50,7 +45,7 @@ ul li :hover{
 }
 #topMain{
     width:100vw;
-    height:12vh;
+    height:;
     display:inline-block;
 }
 #topLeft{
@@ -62,39 +57,40 @@ ul li :hover{
     width:58vw;
     height:12vh;
     display:inline-block;
-    font-size: 4vh;
+    font-size: 3vh;
 }
-#logo{
-    width:12vh;
-    height:12vh;
-    display:inline-block;
-}
-
 *{
     background-color: #E6DAD1;
+}
+.logo
+{
+ max-width: 80px;
+    max-height: 80px;
 }
 .logo img {
     max-width: 80px;
     max-height: 80px;
-    margin-left: 15px;
-    margin-top: 10px;
+    /*margin-left: 15px;
+    margin-top: 10px;*/
     display: block;
     float: left;
+    margin:0;
 }
 .title img {
+    margin-left:2vw;
     max-width: 200px;
     max-height: 200px;
     display: block;
-    padding: 28px;
-    padding-left: 15px;
+    /*padding: 28px;
+    padding-left: 15px;*/
 }
 
 .impInfo {
     background-color: #AB7C73;
-    max-width: 700px;
-    max-height: 500px;
-    margin: 20px 30px;
-    padding: 270px;
+    width: 90vw;
+    height: 70vh;
+    margin: 3vw;
+    padding: 27px;
     border: none;
     border-radius: 8px;
 }
