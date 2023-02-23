@@ -24,7 +24,6 @@ h1{
     margin-top:6vh;
 
 }
-
 #menu li{
     color: #fff;
     display:block;
@@ -34,15 +33,11 @@ h1{
     color: #AB7C73;
     float: right;
 }
-
-
 #menu li :hover{
     transition: 0.5s;
     font-size: 5vh;
     text-shadow:2vh 2vh 3vh black ;
     border: none;
-
-
 }
 #topMain{
     width:100vw;
@@ -60,9 +55,26 @@ h1{
     display:inline-block;
     font-size: 3vh;
 }
+
 *{
     background-color: #E6DAD1;
 }
+
+.textfont{
+    color: #AB7C73;
+    font-family: Cursive;
+    font-style:italic;
+}
+
+.applogos{
+    width: 40px;
+    height: 40px;
+}
+
+.textfont{
+    display: inline-block;
+}
+
 .logo
 {
     margin-top:1vh;
@@ -70,6 +82,7 @@ h1{
     max-width: 80px;
     max-height: 80px;
 }
+
 .logo img {
     max-width: 80px;
     max-height: 80px;
@@ -79,6 +92,7 @@ h1{
     float: left;
     margin:0;
 }
+
 .title img {
     margin-left:2vw;
     max-width: 200px;
@@ -101,6 +115,7 @@ h1{
     border-radius: 8px;
     margin-bottom:2vh;
 }
+
 footer
 {
 width:100vw;
@@ -108,4 +123,15 @@ height:20vh;
 background-color: #E6DAD1;
 margin:0;
 padding:0;
+}
+
+.myDiv {
+    margin: 0;
+    margin-top: 150px;
+    border: 10px double  #E6DAD1;
+    background-color: #E6DAD1;
+    text-align: start;
+    lenght: 100%;
+    display: flex;
+    justify-content: space-between;
 }
