@@ -99,4 +99,13 @@ h1{
     padding: 27px;
     border: none;
     border-radius: 8px;
+    margin-bottom:2vh;
+}
+footer
+{
+width:100vw;
+height:20vh;
+background-color: #E6DAD1;
+margin:0;
+padding:0;
 }
