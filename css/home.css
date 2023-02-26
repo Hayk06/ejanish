@@ -1,16 +1,19 @@
-body{
-    background-color: #F6F5EC ;
+body {
+
+    background-color: #F6F5EC;
     font-size: 14px;
-    width:100vw;
-    height:100vh;
-    margin:0;
-    padding:0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
 }
 
-h1{
+h1 {
+
     font-family: Cursive;
-    display:inline-block;
-    font-style:italic;
+    display: inline-block;
+    font-style: italic;
     margin: 0;
     margin-left: 20px;
     font-size: 8vh;
@@ -19,119 +22,153 @@ h1{
 
 }
 
-#menu{
-    list-style:none;
-    margin-top:6vh;
+#menu {
+
+    list-style: none;
+    margin-top: 6vh;
 
 }
-#menu li{
+
+#menu li {
+
     color: #fff;
-    display:block;
-    text-transform:uppercase;
+    display: block;
+    text-transform: uppercase;
     text-decoration: none;
-    margin-left:4vw;
+    margin-left: 4vw;
     color: #AB7C73;
     float: right;
-}
-#menu li :hover{
-    transition: 0.5s;
-    font-size: 5vh;
-    text-shadow:2vh 2vh 3vh black ;
-    border: none;
-}
-#topMain{
-    width:100vw;
-    height:15vh;
-    display:inline-block;
-}
-#topLeft{
-    width:38vw;
-    height:12vh;
-    display:inline-block;
-}
-#topRight{
-    width:58vw;
-    height:12vh;
-    display:inline-block;
-    font-size: 3vh;
+
 }
 
-*{
+#menu li :hover {
+
+    transition: 0.5s;
+    font-size: 5vh;
+    text-shadow: 2vh 2vh 3vh black;
+    border: none;
+
+}
+
+#topMain {
+
+    width: 100vw;
+    height: 15vh;
+    display: inline-block;
+
+}
+
+#topLeft {
+
+    width: 38vw;
+    height: 12vh;
+    display: inline-block;
+
+}
+
+#topRight {
+
+    width: 58vw;
+    height: 12vh;
+    display: inline-block;
+    font-size: 3vh;
+
+}
+
+* {
     background-color: #E6DAD1;
 }
 
-.textfont{
+.textfont {
+
     color: #AB7C73;
     font-family: Cursive;
-    font-style:italic;
+    font-style: italic;
+
 }
 
-.applogos{
+.applogos {
+
     width: 40px;
     height: 40px;
+
 }
 
-.textfont{
+.textfont {
+
     display: inline-block;
+
 }
 
-.logo
-{
-    margin-top:1vh;
-    margin-left:1vw;
+.logo {
+
+    margin-top: 1vh;
+    margin-left: 1vw;
     max-width: 80px;
     max-height: 80px;
+
 }
 
 .logo img {
+
     max-width: 80px;
     max-height: 80px;
-    /*margin-left: 15px;
-    margin-top: 10px;*/
     display: block;
     float: left;
-    margin:0;
+    margin: 0;
+
 }
 
 .title img {
-    margin-left:2vw;
+
+    margin-left: 2vw;
     max-width: 200px;
     max-height: 200px;
     display: block;
-    margin-top:4vh;
-    margin-left:8vw;
-    /*padding: 28px;
-    padding-left: 15px;*/
+    margin-top: 4vh;
+    margin-left: 8vw;
+
 }
 
 .impInfo {
+
     background-color: #AB7C73;
     width: 85vw;
     height: 70vh;
     margin: auto;
-    margin-top:2vh;
+    margin-top: 2vh;
     padding: 27px;
     border: none;
     border-radius: 8px;
-    margin-bottom:2vh;
+    margin-bottom: 2vh;
+
 }
 
-footer
-{
-width:100vw;
-height:20vh;
-background-color: #E6DAD1;
-margin:0;
-padding:0;
+footer {
+
+    width: 100vw;
+    height: 20vh;
+    background-color: #E6DAD1;
+    margin: 0;
+    padding: 0;
+
 }
 
 .myDiv {
+
     margin: 0;
     margin-top: 150px;
-    border: 10px double  #E6DAD1;
+    border: 10px double #E6DAD1;
     background-color: #E6DAD1;
     text-align: start;
     lenght: 100%;
     display: flex;
     justify-content: space-between;
+
+}
+
+.button{
+
+    color: #AB7C73;
+
 }
