@@ -16,7 +16,6 @@ h1{
     font-size: 8vh;
     position: relative;
     bottom: 4vh;
-
 }
 
 #menu{
@@ -25,6 +24,7 @@ h1{
 
 }
 #menu li{
+    color: #fff;
     display:block;
     text-transform:uppercase;
     text-decoration: none;
@@ -55,6 +55,7 @@ h1{
     font-size: 3vh;
 
 }
+
 #topRight a{
 text-decoration:none;
 color: #AB7C73;
@@ -108,15 +109,14 @@ color: #AB7C73;
     padding-left: 15px;*/
 }
 
-.impInfo {
-    background-color: #AB7C73;
+.middle {
+    background-color: #F6F5EC;
     width: 85vw;
     height: 70vh;
     margin: auto;
     margin-top:2vh;
     padding: 27px;
     border: none;
-    border-radius: 8px;
     margin-bottom:2vh;
 }
 
