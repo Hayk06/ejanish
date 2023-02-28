@@ -22,14 +22,14 @@ h1 {
 
 }
 
-#menu {
+#menuTwo {
 
     list-style: none;
     margin-top: 6vh;
 
 }
 
-#menu li {
+#menuTwo li {
 
     color: #fff;
     display: block;
@@ -40,8 +40,15 @@ h1 {
     float: right;
 
 }
+#menuTwo a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #AB7C73;
 
-#menu li :hover {
+}
+
+#menuTwo li :hover {
 
     transition: 0.5s;
     font-size: 5vh;
@@ -50,15 +57,7 @@ h1 {
 
 }
 
-#menu a{
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #AB7C73;
-
-}
-
-#topMain {
+#topMainTwo {
 
     width: 100vw;
     height: 15vh;
@@ -66,7 +65,7 @@ h1 {
 
 }
 
-#topLeft {
+#topLeftTwo {
 
     width: 38vw;
     height: 12vh;
@@ -74,7 +73,7 @@ h1 {
 
 }
 
-#topRight {
+#topRightTwo {
 
     width: 58vw;
     height: 12vh;
@@ -87,7 +86,7 @@ h1 {
     background-color: #E6DAD1;
 }
 
-.textfont {
+.textfontTwo {
 
     color: #AB7C73;
     font-family: Cursive;
@@ -95,20 +94,20 @@ h1 {
 
 }
 
-.applogos {
+.applogosTwo {
 
     width: 40px;
     height: 40px;
 
 }
 
-.textfont {
+.textfontTwo {
 
     display: inline-block;
 
 }
 
-.logo {
+.logoTwo {
 
     margin-top: 1vh;
     margin-left: 1vw;
@@ -117,7 +116,7 @@ h1 {
 
 }
 
-.logo img {
+.logoTwo img {
 
     max-width: 80px;
     max-height: 80px;
@@ -127,7 +126,7 @@ h1 {
 
 }
 
-.title img {
+.titleTwo img {
 
     margin-left: 2vw;
     max-width: 200px;
@@ -138,7 +137,7 @@ h1 {
 
 }
 
-.impInfo {
+.impInfoTwo {
 
     background-color: #AB7C73;
     width: 85vw;
@@ -162,7 +161,7 @@ footer {
 
 }
 
-.myDiv {
+.myDivTwo {
 
     margin: 0;
     margin-top: 150px;
@@ -175,7 +174,7 @@ footer {
 
 }
 
-.button{
+.buttonTwo {
 
     color: #AB7C73;
 
