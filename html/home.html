@@ -57,13 +57,13 @@
 
     <form>
 
-        <label for="question" class="textfont">Feedback: </label>
+        <label for="question" id="feedbackField">Feedback: </label>
         <input type="text" id="question" name="fname" size="60"><br><br>
-        <p for="lname" class="textfont" >Your Mail: </p>
+        <p for="lname" id="emailField" >Your Mail: </p>
         <input type="text" id="lname" name="lname"  placeholder="yourEmail@gmail.com" size="40"><br><br>
         <label for="fname" class="textfont">Any Opinions: </label>
         <input type="text" id="fname" name="fname" size="56">
-        <input type="submit" value="Send" class="button">
+        <input type="submit" value="Send" class="button" onclick="required()">
 
     </form>
 
@@ -77,7 +77,6 @@
     </div>
 
 </div>
-
+<script src="contactForm.js"></script>
 </body>
-
 </html>
