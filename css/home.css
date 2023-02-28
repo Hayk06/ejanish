@@ -180,3 +180,18 @@ footer {
     color: #AB7C73;
 
 }
+
+.book{
+    width: 23%;
+    height: 10%;
+    float: left;
+
+}
+.impInfo p{
+    background-color: #AB7C73;
+    color: white;
+    width: 800px;
+    padding: 30px;
+    font-size:20px;
+    float: left;
+}
