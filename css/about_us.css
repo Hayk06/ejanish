@@ -137,8 +137,7 @@ h1 {
 
 }
 
-.impInfoTwo {
-
+.aboutUsInfo {
     background-color: #AB7C73;
     width: 85vw;
     height: 70vh;
@@ -148,7 +147,30 @@ h1 {
     border: none;
     border-radius: 8px;
     margin-bottom: 2vh;
+}
 
+.aboutUsInfo img {
+    background-color: #AB7C73;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    width: 15%;
+    padding: 20px;
+}
+
+.aboutUsInfo p{
+    background-color: #AB7C73;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.aboutUsInfo h2{
+    text-decoration: underline;
+    background-color: #AB7C73;
+    color:white;
+    font-size: 30px;
+    text-align: center;
 }
 
 footer {
