@@ -22,14 +22,50 @@ h1 {
 
 }
 
-#menu {
+.detail {
+
+    background: #AB7C73;
+    color: white;
+    font-size: 15px;
+    float:left;
+
+}
+
+.name {
+
+    background: #AB7C73;
+    color: white;
+    font-size: 15px;
+    width: 20%;
+
+}
+
+.nameTwo {
+
+    background: #AB7C73;
+    color: white;
+    font-size: 15px;
+    float: right;
+    margin-right: 30%;
+
+}
+
+#direct {
+
+    margin-left: 450px;
+    background: #AB7C73;
+    color: white;
+    display: inline-block;
+}
+
+#menuProd {
 
     list-style: none;
     margin-top: 6vh;
 
 }
 
-#menu li {
+#menuProd li {
 
     color: #fff;
     display: block;
@@ -41,7 +77,7 @@ h1 {
 
 }
 
-#menu li :hover {
+#menuProd li :hover {
 
     transition: 0.5s;
     font-size: 5vh;
@@ -50,7 +86,7 @@ h1 {
 
 }
 
-#menu a{
+#menuProd a{
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -58,7 +94,7 @@ h1 {
 
 }
 
-#topMain {
+#topMainProd {
 
     width: 100vw;
     height: 15vh;
@@ -66,7 +102,7 @@ h1 {
 
 }
 
-#topLeft {
+#topLeftProd {
 
     width: 38vw;
     height: 12vh;
@@ -74,7 +110,7 @@ h1 {
 
 }
 
-#topRight {
+#topRightProd {
 
     width: 58vw;
     height: 12vh;
@@ -87,22 +123,28 @@ h1 {
     background-color: #E6DAD1;
 }
 
-.textfont {
+.textfontProd {
 
     color: #AB7C73;
     font-family: Cursive;
     font-style: italic;
-    display: inline-block;
+
 }
 
-.applogos {
+.applogosProd {
 
     width: 40px;
     height: 40px;
 
 }
 
-.logo {
+.textfontProd {
+
+    display: inline-block;
+
+}
+
+.logoProd {
 
     margin-top: 1vh;
     margin-left: 1vw;
@@ -111,7 +153,7 @@ h1 {
 
 }
 
-.logo img {
+.logoProd img {
 
     max-width: 80px;
     max-height: 80px;
@@ -121,7 +163,7 @@ h1 {
 
 }
 
-.title img {
+.titleProd img {
 
     margin-left: 2vw;
     max-width: 200px;
@@ -132,7 +174,7 @@ h1 {
 
 }
 
-.impInfo {
+.impInfoProd {
 
     background-color: #AB7C73;
     width: 85vw;
@@ -156,7 +198,7 @@ footer {
 
 }
 
-.myDiv {
+.myDivProd {
 
     margin: 0;
     margin-top: 150px;
@@ -169,23 +211,34 @@ footer {
 
 }
 
-.button{
+.buttonProd {
 
     color: #AB7C73;
 
 }
 
-.book{
-    width: 23%;
-    height: 10%;
-    float: left;
+.bookPhoto {
+
+    width: 20%;
+    height: 60%;
 
 }
-.impInfo p{
-    background-color: #AB7C73;
+
+.bookPhotoTwo {
+
+    width: 20%;
+    height: 60%;
+    float: right;
+    margin-right: 20%;
+
+}
+
+#detailTwo {
+
+    background: #AB7C73;
     color: white;
-    width: 800px;
-    padding: 30px;
-    font-size:20px;
-    float: left;
+    font-size: 15px;
+    float:right;
+    margin-right: 45px;
+
 }
