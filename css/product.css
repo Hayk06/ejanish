@@ -1,52 +1,13 @@
+
 body {
 
     background-color: #F6F5EC;
     font-size: 14px;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
-
-}
-
-h1 {
-
-    font-family: Cursive;
-    display: inline-block;
-    font-style: italic;
-    margin: 0;
-    margin-left: 20px;
-    font-size: 8vh;
-    position: relative;
-    bottom: 4vh;
-
-}
-
-.detail {
-
-    background: #AB7C73;
-    color: white;
-    font-size: 15px;
-    float:left;
-
-}
-
-.name {
-
-    background: #AB7C73;
-    color: white;
-    font-size: 15px;
-    width: 20%;
-
-}
-
-.nameTwo {
-
-    background: #AB7C73;
-    color: white;
-    font-size: 15px;
-    float: right;
-    margin-right: 30%;
+    border-box: content;
 
 }
 
@@ -96,26 +57,27 @@ h1 {
 
 #topMainProd {
 
-    width: 100vw;
-    height: 15vh;
-    display: inline-block;
+     width: 100%;
+     height: 15vh;
+     display: inline-block;
 
 }
 
 #topLeftProd {
 
-    width: 38vw;
-    height: 12vh;
-    display: inline-block;
+     width: 38vw;
+       height: 12vh;
+       display: inline-block;
+
 
 }
 
 #topRightProd {
 
-    width: 58vw;
-    height: 12vh;
-    display: inline-block;
-    font-size: 3vh;
+     width: 58vw;
+     height: 12vh;
+     display: inline-block;
+     font-size: 3vh;
 
 }
 
@@ -146,20 +108,19 @@ h1 {
 
 .logoProd {
 
-    margin-top: 1vh;
-    margin-left: 1vw;
-    max-width: 80px;
-    max-height: 80px;
-
+      margin-top: 1vh;
+        margin-left: 1vw;
+        max-width: 80px;
+        max-height: 80px;
 }
 
 .logoProd img {
 
-    max-width: 80px;
-    max-height: 80px;
-    display: block;
-    float: left;
-    margin: 0;
+         max-width: 80px;
+           max-height: 80px;
+           display: block;
+           float: left;
+           margin: 0;
 
 }
 
@@ -176,21 +137,45 @@ h1 {
 
 .impInfoProd {
 
-    background-color: #AB7C73;
-    width: 85vw;
-    height: 70vh;
-    margin: auto;
-    margin-top: 2vh;
-    padding: 27px;
-    border: none;
-    border-radius: 8px;
-    margin-bottom: 2vh;
+  background-color: #AB7C73;
+     width: 85vw;
+     height: 70vh;
+     margin: auto;
+     margin-top: 2vh;
+     padding: 27px;
+     border: none;
+     border-radius: 8px;
+     margin-bottom: 2vh;
 
+}
+
+figure{
+font-size: 14px;
+max-width: 40%;
+display: inline-block;
+background-color: #AB7C73;
+}
+
+figure:not(:nth-child(2n)){
+margin-right: 5%;
+}
+
+figcaption{
+background-color: #AB7C73;
+display: block;
+min-width: 30%;
+
+
+}
+
+.bookPhoto{
+width:30%;
+height: 50%;
 }
 
 footer {
 
-    width: 100vw;
+    width: 100%;
     height: 20vh;
     background-color: #E6DAD1;
     margin: 0;
@@ -217,28 +202,4 @@ footer {
 
 }
 
-.bookPhoto {
 
-    width: 20%;
-    height: 60%;
-
-}
-
-.bookPhotoTwo {
-
-    width: 20%;
-    height: 60%;
-    float: right;
-    margin-right: 20%;
-
-}
-
-#detailTwo {
-
-    background: #AB7C73;
-    color: white;
-    font-size: 15px;
-    float:right;
-    margin-right: 45px;
-
-}
