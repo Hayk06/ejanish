@@ -10,7 +10,7 @@ function myFunction() {
     }
     else{
 
-    window.open("home.html")
+    window.open("home.html");
     }
     }
 

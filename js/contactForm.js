@@ -1,17 +1,18 @@
-const feedbackField = document.getElementById(feedback);
-const emailField = document.getElementById(email);
-const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+var f = document.getElementById('question');
+var email = document.getElementById('lname');
+var emailR = document.getElementById('fname');
 
 function required() {
-    if (emailField.value === '') {
-        alert("This field is required");
+    if (f.value == '' || email.value == '' || emailR == '') {
+        alert("All fields are required");
     }
 
-    if(!emailRegex(emailField.value)) {
-        alert("Enter a valid email");
+    else{
+    window.open("home.html");
+    }
     }
 
-    if(feedbackField.value === '') {
-        alert("This field is required");
-    }
-}
+
+
+
+
